@@ -93,6 +93,8 @@ nav li a{
     font-style: normal;
     font-weight: 700;
     line-height: 70px; /* 134.615% */
+
+    width: 580px;
 }
 .banner-description{
     color: #3A3A3A;
@@ -115,7 +117,7 @@ nav li a{
 }
 .sponsor-image{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /*sponsor section style end here*/
 
