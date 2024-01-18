@@ -13,7 +13,7 @@
 }
 /*Shared contet*/
 .btn-primary{
-    display: inline-flex;
+    display: flex;
     padding: 10px 24px;
     align-items: center;
     gap: 8px;
@@ -23,6 +23,10 @@
     font-size: 16px;
     font-weight: 700;
     border: 0;
+}
+.btn-primary img{
+    width: 24px;
+    height: 24px;
 }
 /*Shared contet*/
 
@@ -35,6 +39,7 @@ nav{
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -44,7 +49,14 @@ nav li{
 }
 nav ul img{
     margin-right: 30px;
-    margin-top: 5px;
+}
+nav ul .search{
+    width: 18px;
+    height: 18px;
+}
+nav ul .cart{
+    width: 30px;
+    height: 30px;
 }
 nav li a{
     text-decoration: none;
@@ -62,7 +74,7 @@ nav li a{
     display: flex;
     width: 1140px;
     margin: 0 auto;
-    gap: 120px;
+    
 }
 .text-area{
     width: 60%;
@@ -166,6 +178,10 @@ nav li a{
     font-size: 24px;
     font-weight: 400;
 }
+.card-rating img{
+    width: 15px;
+    height: 15px;
+}
 .card-rating{
     display: inline-flex;
     align-items: center;
@@ -189,12 +205,16 @@ nav li a{
     letter-spacing: 0.252px;
     width: 180px;
 }
+.see-more-right img{
+    width: 16px; 
+    height: 14px; 
+}
 .see-more-right{
     display: inline-flex;
-    position: relative;
-    left: 86.5%;
+    position: absolute;
+    left: 1020px;
+    align-items: center;
     margin-top: 40px;
-    
 }
 .see-more{
     color: rgba(224, 44, 109, 0.87);
@@ -270,6 +290,10 @@ footer{
     font-family: Manrope;
     font-size: 14px;
     font-weight: 700;
+}
+.social-media-icon img{
+    width: 30px;
+    height: 30px;
 }
 .social-media-icon{
     padding-bottom: 50px;
